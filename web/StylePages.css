@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3-mag-2018, 19.16.19
+    Author     : Andrea
+*/
+
+
+#notizie{
+    
+    text-align: center;
+    font-size: 40px;
+   
+}
+#profilo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+}
+#login {
+    position: absolute;
+    top: 0px;
+    right:0px;
+    font-size: 40px;
+}
+
+#intro, #intro1 {
+       text-align: center;
+        color: white;
+        font-size: 30px;
+        text-decoration: underline;
+}
+
+#immagine {
+    
+    position:absolute;
+    top: 0px;
+    left: 30px;
+}
+
+#immagine2 {
+    
+    position:absolute;
+    top: 0px;
+    right: 30px;
+    
+}
+.presentazione{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    background-color: blue;
+    border-style: solid;
+    height: 150px;
+    border-collapse: collapse;
+    
+}
+
+.link_pagine {
+    position: absolute;
+    top: 155px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    
+    
+    border-collapse: collapse;
+    
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position:relative;
+    background-color: red;
+}
+
+nav li  {
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: white;
+    display: inline-block;
+    border-style:outset;
+    border-radius: 10px;
+    border-color: white;
+    width: 30%;
+    
+    padding-left: 0px;
+    padding-right: 33px;
+}
+
+
+.sinistra {
+    position: absolute;
+    top:196px;
+    left: 0px;
+    width: 30%;
+    height: 100%;
+    border-style: solid;
+    border-color: blue;
+    
+    
+}
+
+.centro {
+    position: absolute;
+    top: 196px;
+    right: 0px;
+    width: 70%;
+    height: 100%;
+    border-style: solid;
+    border-color: blue;
+    
+}
+
+#search
+{
+    
+    width: 99%;
+    height: 5%;
+    border-style: outset;
+    border-color: red;
+}
+
+
+#lista {
+    
+    font-size: 30px;
+    text-decoration: underline;
+    color:blue;
+    text-align: left;
+    
+    
+}
+#lista li {
+    
+    margin:3%;
+    
+}
+#lista li ol {
+    
+    font-size: 20px;
+    color:red;
+    text-align: left;
+    list-style-type: lower-alpha;
+}
+ 
+body{
+    background-color: white;
+}
+

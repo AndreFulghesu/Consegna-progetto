@@ -1,0 +1,309 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3-mag-2018, 19.16.19
+    Author     : Andrea
+*/
+
+
+#notizie{
+    
+    text-align: center;
+    font-size: 40px;
+   
+}
+#profilo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+}
+#login {
+    position: absolute;
+    top: 0px;
+    right:0px;
+    font-size: 40px;
+}
+#intro, #intro1 {
+       text-align: center;
+        color: white;
+        font-size: 30px;
+        text-decoration: underline;
+}
+
+
+/*impostazioni per le due immagini nell'header*/
+#immagine {
+    
+    position:absolute;
+    top: 0px;
+    left: 30px;
+}
+#immagine2 {
+    
+    position:absolute;
+    top: 0px;
+    right: 30px;
+    
+}
+.presentazione{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    background-color: blue;
+    border-style: solid;
+    height: 150px;
+    border-collapse: collapse;
+    
+}
+
+/*impostazioni per il nav con il link alle pagine*/
+.link_pagine {
+    position: absolute;
+    top: 155px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    
+    
+    border-collapse: collapse;
+    
+}
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position:relative;
+    background-color: red;
+}
+nav li  {
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: white;
+    display: inline-block;
+    border-style:outset;
+    border-radius: 10px;
+    border-color: white;
+    width: 30%;
+    
+    padding-left: 0px;
+    padding-right: 33px;
+}
+
+/*barra a sinistra con l'elenco*/
+.sinistra {
+    position: absolute;
+    top:196px;
+    left: 0px;
+    width: 30%;
+    height:1060px;
+    border-style: solid;
+    border-color: blue;
+    
+    
+}
+.centro {
+    position:relative;
+    top:196px;
+    right: 0px;
+    left:30%;
+    width: 50%;
+    height: 100%;
+    
+}
+
+/*pagina di login per il form centrale*/
+.accedi {
+    position:relative;
+    top:300px;
+    right:0%;
+    left: 50%;
+    width:30%;
+    border-style: solid;
+    border-color:red;
+    background-color: lightyellow;
+    font-size: 50px;
+    
+}
+
+/* sezione articolo nella pagina notizia.html*/
+.articolo {
+    
+    position:relative;
+    top:200px;
+    right:0px;
+    left:30.5%;
+    font-size: 20px;
+    
+}
+
+/* sezione css per la tabella articoli.html*/
+.tabella_utente {
+    position: absolute;
+    top:350px;
+    right: 10%;
+    left: 37.5%;
+    
+    
+}
+
+/* Gestione pagine scriviArticolo per centralizzare  label e input */
+.layout_articolo {
+    
+    position: absolute;
+    top:350px;
+    right: 10%;
+    left: 37.5%;
+    font-size: 50px;
+    border-color: red;
+    
+
+}
+#form {
+background:#ccc;
+width:500px;
+margin:20px auto;
+}
+label{
+width: 100px;
+margin-left:20px;
+clear:left;
+display:block;
+float:left;
+}
+input, textarea{
+width: 300px;
+margin-left: 30%;
+margin-bottom:10px;
+}
+input#fbutton{
+width: 100px;
+}
+#titolo{
+    
+    font-size: 30px;
+}
+#data-pubblicazione {
+    font-size:30px;
+}
+#image {
+    font-size:30px;
+}
+#didascalia {
+    font-size:30px;
+}
+#testo {
+    font-size:30px;
+}
+#category {
+    font-size:30px;
+}
+#tabella {
+    margin-top:50px;
+    font-size:20px;
+    border-color: black;
+    border-collapse:collapse;
+    border-style: solid;
+    
+    
+}
+td, th { 
+    border:1px solid #ddd;
+    padding:15px;
+    font-size: 45px;
+    
+}
+table col {
+    background-color: lightgoldenrodyellow;
+    color: #000000;
+}
+table col.even {
+    background-color: lightblue;
+    color: #000000;
+}
+
+/*posizione del link per visitare un articolo in login.html*/
+.visita_articolo {
+    border-style: solid;
+    position: relative;
+    top:200px;
+    right: 0%;
+    left:30.5%;
+    width: 68%;
+    height:10%;
+    border-color: red;
+    font-size: 30px; 
+    
+}
+
+/*pagina login form per la registrazione */
+.registrazione {
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    left: 30%;
+    border-style: solid;
+    border-color:blue;
+    
+    
+}
+
+#area{
+   
+    position: relative;
+    left: 20%;
+    top:80px;
+    border-style:solid;
+    
+}
+
+/*barra ricerca in alto a sinistra */
+#search
+{
+    
+    width: 99%;
+    height: 5%;
+    border-style: outset;
+    border-color: red;
+}
+
+/* elenco delle varie categorie */
+#lista {
+    
+    font-size: 30px;
+    text-decoration: underline;
+    color:blue;
+    text-align: left;
+    
+    
+}
+#lista li {
+    
+    margin:3%;
+    
+}
+#lista li ol {
+    
+    font-size: 20px;
+    color:red;
+    text-align: left;
+    list-style-type: lower-alpha;
+}
+body{
+    height: 1030px;
+    background-color: white;
+}
+.scrivi_articolo {
+    position: absolute;
+    top:0px;
+    right: 10%;
+    left: 0%;
+    
+    font-size: 30px;
+}
+

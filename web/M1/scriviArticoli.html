@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Blogger intelletuale</title>
+        <meta name='keywords' content="blog,personal,notizie,news,mondo">
+        <meta name='description' content='BLOG PERSONALE ANDREA FULGHESU'>
+        <meta name='author' content='Andrea Fulghesu'>
+        <link rel="stylesheet" type="text/css" href="StylePages.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="presentazione">
+            
+            
+            
+            <h1 id='intro'>Benvenuti nel nostro sito</h1>
+            
+                <p id='intro1'>Blog personale per ogni utente con diritto di parola</p>
+                
+                <img id='immagine' title="news" alt="Foto logo notizie"
+                    src="../images/news_logo.jpg" width="240" height="150">
+                
+                <img id='immagine2' title="news2" alt="foto lofo notizie"
+                     src="../images/news_logo.jpg" width="240" height="150">
+            
+            
+        </header>
+        
+        <nav class="link_pagine">
+                
+            <ul class="navbar">
+                <li><a href="index">Home</a></li>
+                    <li><a href="utente">Profilo</a></li>
+                        <li><a href="M1\login.html">Registrati</a></li>
+            </ul>
+            
+       </nav>
+        
+        <div class="sinistra">
+            
+            
+            <input type="text" id="search" name="search" value="Cerca..">
+            <input type="submit" value="Search" />
+            <hr>
+            <h2><strong>Categorie degli articoli</strong></h2>
+            <br>
+            <hr>
+            
+            <ol id="lista">
+                <li>
+                    Sport
+                                   
+                    <ol>
+                        
+                        <li>Basket</li>
+                        <li>Tennis</li>
+                        <li>Calcio</li>
+                    </ol>
+                    
+                    <br>
+                </li>
+                
+                
+                <li>Musica</li>
+                
+                <li>Politica</li>
+                
+                <li>Attualità</li>
+                
+                <li>Cultura</li>
+                
+                <li>Economia</li>
+            </ol>
+            
+            
+        </div>  
+        
+        
+        <div class="layout_articolo">
+            
+            
+            <form action="form-table" method="get">
+                
+            <label for="titolo">Titolo</label>
+            <input type="text" name="titolo" id="titolo" value="titolo" />
+            <br>
+            <br>
+            <label for="data-pubblicazione">Data pubblicazione</label>
+            <input type="text" name="data-pubblicazione" id="data-pubblicazione" value="data-pubblicazione" />
+            <br>
+            <br>
+            <label for="image">URL immagine</label>
+            <input type="text" name="image" id="image"  value="image" />
+            <br>
+            <br>
+            <label for="didascalia">Didascalia immagine</label>
+            <input type="text" name="didascalia" id="didascalia"  value="didascalia" />
+            <br>
+            <br>
+            <label for="testo">Testo articolo</label>
+            <textarea rows="10" cols="50" name="testo" id="testo"></textarea>
+            <br>
+            <br>
+            <label for="category">Categoria</label>
+            <input type="text" name="Categoria" id="category" value="Categoria" />
+            <br>
+            <br>
+            
+            </form>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+    </body>
+</html>

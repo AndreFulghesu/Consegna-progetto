@@ -1,0 +1,47 @@
+
+
+-Articoli{
+	id
+	titolo
+	contenuto
+	autore
+	categoria
+	didascalia
+	urlImmagine
+	
+}
+
+-Utenti{
+	id
+	nome
+	cognome
+	username
+	password
+	email
+	ImgProfilo
+}
+
+
+
+
+-Commenti{
+	id
+	data
+	contenuto
+	utente (chiave esterna)
+	articolo 
+}
+
+
+RELAZIONI: 
+
+Utente-->articolo: uno a molti
+articolo-->Utente: 1
+	
+Utente-->commenti: uno a molti		
+-Utente -> Commenti:M
+-Commenti -> Utente: 1
+
+Articolo-->Commenti: uno a molti
+-Articolo -> Commenti:M
+-Commenti -> Articolo: 1
